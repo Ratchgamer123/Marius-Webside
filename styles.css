@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*
+{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+body
+{
+    background-color: #73BA9B;
+}
+
+h3
+{
+    font-size: 22px;
+    text-decoration: underline #2C5F1C;
+}
+
+li, a, button
+{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 10%;
+    background-color: #3D7B60;
+    text-decoration: underline double #01110A;
+}
+
+.title
+{
+    cursor: pointer;
+    font-size: 32px;
+}
+
+button
+{
+    padding: 9px 25px;
+    background-color: #63CF97;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    animation: animation-out 500ms forwards;
+}
+
+button:hover
+{
+   animation: animation-in 500ms forwards;
+}
+
+@keyframes animation-in 
+{
+    0%
+    {
+        transform: translate(0, 0)
+    }
+    50%
+    {
+        transform: translate(0, 1rem)
+    }
+    100%
+    {
+        transform: translate(0, 1rem) rotate(5deg)
+    } 
+}
+
+@keyframes animation-out 
+{
+    0%
+    {
+        transform: translate(0, 1rem) rotate(5deg)
+    }
+    50%
+    {
+        transform: translate(0, 1rem)
+    }
+    100%
+    {
+        transform: translate(0, 0)
+    } 
+}
+
+
+.flexbox-container
+{
+    display: flex;
+    align-items:flex-start;
+    width: 100%;
+    border: #000000 3px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #D5F2E3;
+}
+
+.flexbox-item
+{
+    min-height: 1%;
+    max-height: 20%;
+    height: auto; 
+    width: auto; 
+    max-width: 340px; 
+    max-height: 600px;
+    background-color: #D5F2E3;
+}
+
+.flex-item-1
+{
+    height: auto; 
+    width: auto; 
+    max-width: 400px; 
+    max-height: 400px;
+    background-color: #D5F2E3;
+}
+
+.flex-item-2
+{
+    max-width: 60%;
+    height: 1000px;
+    background-color: #D5F2E3;
+    font-size: medium;
+}
+
+.flex-item-3
+{
+    height: auto; 
+    width: auto; 
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 600px; 
+    max-height: 600px;
+    background-color: #D5F2E3;
+}
+
+.graphics-border
+{
+    border: #BA2D0B;
+    border-style:solid;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.quellenlinks
+{
+    text-decoration: none;
+    color: #2A4C7D;
+}
+
+#impressum
+{
+    text-align: center;
+}
