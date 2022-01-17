@@ -93,7 +93,8 @@ button:hover
 .flexbox-container
 {
     display: flex;
-    align-items:flex-start;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     border: #000000 3px solid;
     padding: 5px;
@@ -107,36 +108,36 @@ button:hover
     max-height: 20%;
     height: auto; 
     width: auto; 
-    max-width: 340px; 
-    max-height: 600px;
+    max-width: 25%; 
+    max-height: 80%;
     background-color: #D5F2E3;
 }
 
 .flex-item-1
 {
+    flex: auto;
     height: auto; 
     width: auto; 
-    max-width: 400px; 
-    max-height: 400px;
+    max-width: 20%; 
+    max-height: 80%;
     background-color: #D5F2E3;
 }
 
 .flex-item-2
 {
-    max-width: 60%;
-    height: 1000px;
     background-color: #D5F2E3;
     font-size: medium;
+    max-width: 50%; 
+    max-height: 80%;
 }
 
 .flex-item-3
 {
+    flex: auto;
     height: auto; 
     width: auto; 
-    min-height: 200px;
-    min-width: 200px;
-    max-width: 600px; 
-    max-height: 600px;
+    max-width: 20%; 
+    max-height: 80%;
     background-color: #D5F2E3;
 }
 
